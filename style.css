@@ -1,0 +1,136 @@
+.menu a { 
+    color: black;
+    width: 100px; 
+    display: inline-block;
+    padding: 12px 24px; 
+    text-decoration: none; 
+    transition: 2s;
+} 
+.menu a:hover {
+    color: blue; 
+    background-color: lightgrey; 
+    border-radius: 20px;
+}
+.menu {
+    text-align: center;
+} 
+ 
+ 
+.header a {
+   transition: 2s; 
+   color: black;
+   text-decoration: none; 
+   padding: 12px 20px; 
+   background-color: cornsilk;
+} 
+.header a:hover { 
+    color: blue; 
+    padding: 2px; 
+    border-radius: 10px;  
+    color: blue; 
+    background-color: rgb(255, 255, 255); 
+    transition: 2s;
+} 
+.header { 
+    text-align: center; 
+    background-image:url(img/polygons.png); 
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: white; 
+    padding: 200px;
+} 
+.about h1 {
+    text-align: center;
+}   
+.about img {
+    float:right;
+    width: 350px;  
+}
+.about {
+    width: 1200px;
+    margin: 0 auto; 
+    text-align: justify; 
+} 
+.team h1 {
+    text-align: center;
+} 
+.team p {
+    text-align: center;
+} 
+.member {
+    border: 2px lightgray solid; 
+    width: 20%; 
+    display: inline-block; 
+    text-align: center;
+} 
+.member img {
+    width: 100%;
+} 
+.member a {
+    background-color: rgb(2, 111, 126);  
+    text-decoration: none; 
+    border-radius: 8px; 
+    padding: 7px;
+} 
+.tariffs h1 {
+    text-align: center; 
+} 
+.tariffs p {
+    text-align: center ;  
+} 
+.tariffs li {
+    padding: 16px; 
+    list-style-type: none;
+    border-bottom: 2px lightgray solid;
+} 
+.tariffs {
+    background-color: darkgray; 
+    padding: 20px;
+}  
+.tariff { 
+    width: 33%; 
+    display: inline-block;
+}
+.tariff a {
+    background-color: black; 
+    color: white; 
+    border-radius: 8px; 
+    padding: 12px 17px; 
+    text-decoration: none;
+} 
+.tariff ol {
+    text-align: center; 
+    padding: 0px;
+    background-color: rgb(255, 255, 255); 
+}
+.base {
+background-color: rgb(0, 0, 0);
+color: white; 
+} 
+.pro {
+    background-color: teal;
+} 
+.contact {
+    text-align: center;
+}
+.cont {
+    text-align: center;
+}
+.contact input {
+    width: 100%; 
+    margin-bottom: 20px; 
+    padding: 4px; 
+    width: 95%;
+    display: block;
+} 
+.contact button { 
+    text-decoration: none; 
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px; 
+    padding: 12px 32px;
+
+    outline: none;
+    border: none;
+}
+  
